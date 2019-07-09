@@ -1,0 +1,39 @@
+{
+  "private": true,
+  "version": "1.14.0",
+  "name": "numpy-cn",
+  "description": "Chinese (zh-cn) translation of the NumPy docs numpy.",
+  "scripts": {
+    "dev": "vuepress dev docs --temp .temp",
+    "build": "vuepress build docs --temp .temp",
+    "view-info": "vuepress view-info docs --temp .temp",
+    "show-help": "vuepress --help"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teadocs/numpy-cn/tree/vuepress-version"
+  },
+  "keywords": [
+    "documentation",
+    "python",
+    "numpy",
+    "guide",
+    "tutorial"
+  ],
+  "author": "ZhiBing",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/teadocs/numpy-cn/issues"
+  },
+  "homepage": "https://www.numpy.org.cn",
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.0.2",
+    "@vuepress/plugin-google-analytics": "^1.0.2",
+    "@vuepress/plugin-medium-zoom": "^1.0.2",
+    "@vuepress/plugin-pwa": "^1.0.2",
+    "@vuepress/theme-vue": "^1.0.2",
+    "vue-toasted": "^1.1.25",
+    "vuepress": "^1.0.2",
+    "vuepress-plugin-flowchart": "^1.4.2"
+  }
+}
