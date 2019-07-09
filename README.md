@@ -1,8 +1,4 @@
-# numpy-cn
-
-<p align="center">
-  <img width="200" height="200" src="/static/images/numpy.logo.mini.png" alt="numpy中文文档logo" />
-</p>
+# Numpy中文文档
 
 > Chinese (zh-cn) translation of the NumPy docs
 > Numpy官方文档的中文版本
